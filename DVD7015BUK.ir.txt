@@ -1,0 +1,208 @@
+Filetype: IR signals file
+Version: 1
+#
+name: Setup
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 40 00 00 00
+#
+name: Standby
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 7B 00 00 00
+#
+name: Down_Next
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 1E 00 00 00
+#
+name: OK_Enter
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 05 00 00 00
+#
+name: Up_Previous
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 48 00 00 00
+#
+name: Digit_0
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 1B 00 00 00
+#
+name: Digit_1
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 10 00 00 00
+#
+name: Digit_2
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 03 00 00 00
+#
+name: Digit_3
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 01 00 00 00
+#
+name: Digit_4
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 06 00 00 00
+#
+name: Digit_5
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 09 00 00 00
+#
+name: Digit_6
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 1D 00 00 00
+#
+name: Digit_7
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 1F 00 00 00
+#
+name: Digit_8
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 0D 00 00 00
+#
+name: Digit_9
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 19 00 00 00
+#
+name: Forward_Right
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 34 00 00 00
+#
+name: Frame_Step
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 7E 00 00 00
+#
+name: Play_Pause
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 1C 00 00 00
+#
+name: Rewind_Left
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 02 00 00 00
+#
+name: Slow
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 15 00 00 00
+#
+name: Stop
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 14 00 00 00
+#
+name: Root_Menu
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 1A 00 00 00
+#
+name: Title_Menu
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 17 00 00 00
+#
+name: Audio_Track
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 12 00 00 00
+#
+name: Mute
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 0E 00 00 00
+#
+name: Subtitles
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 16 00 00 00
+#
+name: Volume_Down
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 0F 00 00 00
+#
+name: Volume_Up
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 0C 00 00 00
+#
+name: Angle
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 00 00 00 00
+#
+name: Display
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 0A 00 00 00
+#
+name: Display_Language
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 74 00 00 00
+#
+name: Zoom
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 11 00 00 00
+#
+name: Repeat
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 4D 00 00 00
+#
+name: Repeat_A_B
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 04 00 00 00
+#
+
