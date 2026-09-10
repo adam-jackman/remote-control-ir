@@ -1,1543 +1,669 @@
 Filetype: IR signals file
 Version: 1
 #
-# DVD7015BUK complete 8-bit command inventory, address 00, NEC 38 kHz.
-# Includes untested commands. Test individually; never automatically sweep.
-# TEST_ labels remain unverified. Unk numbers are sequential labels, not hex commands.
-#
-name: Angle
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: 00 00 00 00
-#
-name: Digit_3
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: 01 00 00 00
-#
-name: Rewind
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: 02 00 00 00
-#
-name: Digit_2
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: 03 00 00 00
-#
-name: Unk01
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: 04 00 00 00
-#
-name: TEST_OK_Enter
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: 05 00 00 00
-#
-name: Unk02
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: 06 00 00 00
-#
-name: TEST_Unknown_Enter
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: 07 00 00 00
-#
-name: Unk03
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: 08 00 00 00
-#
-name: Digit_5
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: 09 00 00 00
-#
-name: Display
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: 0A 00 00 00
-#
-name: Unk04
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: 0B 00 00 00
-#
-name: Unk05
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: 0C 00 00 00
-#
-name: Digit_8
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: 0D 00 00 00
-#
-name: Mute
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: 0E 00 00 00
-#
-name: Volume_Down
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: 0F 00 00 00
-#
-name: TEST_Digit_1
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: 10 00 00 00
-#
-name: Zoom
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: 11 00 00 00
-#
-name: Audio_Track
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: 12 00 00 00
-#
-name: Unk06
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: 13 00 00 00
-#
-name: Stop
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: 14 00 00 00
-#
-name: Slow
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: 15 00 00 00
-#
-name: Unk07
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: 16 00 00 00
-#
-name: Title_Menu
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: 17 00 00 00
-#
-name: Unk08
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: 18 00 00 00
-#
-name: Digit_9
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: 19 00 00 00
-#
-name: Disc_Menu
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: 1A 00 00 00
-#
-name: Digit_0
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: 1B 00 00 00
-#
-name: Play_Pause
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: 1C 00 00 00
-#
-name: Digit_6
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: 1D 00 00 00
-#
-name: Down_Next
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: 1E 00 00 00
-#
-name: Digit_7
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: 1F 00 00 00
-#
-name: Unk09
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: 20 00 00 00
-#
-name: Unk10
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: 21 00 00 00
-#
-name: Unk11
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: 22 00 00 00
-#
-name: Unk12
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: 23 00 00 00
-#
-name: Unk13
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: 24 00 00 00
-#
-name: Unk14
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: 25 00 00 00
-#
-name: Unk15
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: 26 00 00 00
-#
-name: Unk16
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: 27 00 00 00
-#
-name: Unk17
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: 28 00 00 00
-#
-name: Unk18
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: 29 00 00 00
-#
-name: Unk19
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: 2A 00 00 00
-#
-name: Unk20
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: 2B 00 00 00
-#
-name: Unk21
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: 2C 00 00 00
-#
-name: Unk22
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: 2D 00 00 00
-#
-name: Unk23
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: 2E 00 00 00
-#
-name: Unk24
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: 2F 00 00 00
-#
-name: Unk25
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: 30 00 00 00
-#
-name: Unk26
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: 31 00 00 00
-#
-name: Unk27
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: 32 00 00 00
-#
-name: Unk28
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: 33 00 00 00
-#
-name: Unk29
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: 34 00 00 00
-#
-name: Unk30
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: 35 00 00 00
-#
-name: Unk31
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: 36 00 00 00
-#
-name: Unk32
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: 37 00 00 00
-#
-name: Unk33
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: 38 00 00 00
-#
-name: Unk34
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: 39 00 00 00
-#
-name: Unk35
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: 3A 00 00 00
-#
-name: Unk36
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: 3B 00 00 00
-#
-name: Unk37
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: 3C 00 00 00
-#
-name: Unk38
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: 3D 00 00 00
-#
-name: Unk39
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: 3E 00 00 00
-#
-name: Unk40
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: 3F 00 00 00
-#
+# DVD7015BUK grouped remote. One enabled button per observed function.
+# Alternative blocks are FULLY commented out, including all protocol fields.
+# TBC buttons caused Invalid in the tested context; function remains unknown.
+# Advanced, disruptive and unverified controls are commented out.
+# No automatic sequences. Original Unk inventory is unchanged.
+#
+# Power and setup
+#
+# Original: Setup; command 40; app 00FF02FD
 name: Setup
 type: parsed
 protocol: NEC
 address: 00 00 00 00
 command: 40 00 00 00
 #
-name: Unk41
+# Original: Unk09; command 20; app 00FF04FB
+# Alternative code for same observed function
+# name: alt1 Setup
+# type: parsed
+# protocol: NEC
+# address: 00 00 00 00
+# command: 20 00 00 00
+#
+# Original: Unk87; command 72; app 00FF4EB1
+# Alternative code for same observed function
+# name: alt2 Setup
+# type: parsed
+# protocol: NEC
+# address: 00 00 00 00
+# command: 72 00 00 00
+#
+# Original: Unk96; command 7B; app 00FFDE21
+name: Standby
 type: parsed
 protocol: NEC
 address: 00 00 00 00
-command: 41 00 00 00
+command: 7B 00 00 00
 #
-name: Unk42
+# Navigation
+#
+# Original: Down_Next; command 1E; app 00FF7887
+name: Down_Next
 type: parsed
 protocol: NEC
 address: 00 00 00 00
-command: 42 00 00 00
+command: 1E 00 00 00
 #
-name: Unk43
+# Original: TEST_OK_Enter; command 05; app 00FFA05F
+name: OK_Enter
 type: parsed
 protocol: NEC
 address: 00 00 00 00
-command: 43 00 00 00
+command: 05 00 00 00
 #
-name: Unk44
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: 44 00 00 00
-#
-name: Unk45
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: 45 00 00 00
-#
-name: Unk46
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: 46 00 00 00
-#
-name: Unk47
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: 47 00 00 00
-#
+# Original: Up_Previous; command 48; app 00FF12ED
 name: Up_Previous
 type: parsed
 protocol: NEC
 address: 00 00 00 00
 command: 48 00 00 00
 #
-name: Unk48
+# Digits
+#
+# Original: Digit_0; command 1B; app 00FFD827
+name: Digit_0
 type: parsed
 protocol: NEC
 address: 00 00 00 00
-command: 49 00 00 00
+command: 1B 00 00 00
 #
-name: Unk49
+# Original: TEST_Digit_1; command 10; app 00FF08F7
+# User typed 00ff08fy; 00FF08F7 is a consistent correction, not explicitly re-confirmed.
+name: Digit_1_Provisional
 type: parsed
 protocol: NEC
 address: 00 00 00 00
-command: 4A 00 00 00
+command: 10 00 00 00
 #
-name: Unk50
+# Original: Digit_2; command 03; app 00FFC03F
+name: Digit_2
 type: parsed
 protocol: NEC
 address: 00 00 00 00
-command: 4B 00 00 00
+command: 03 00 00 00
 #
-name: Unk51
+# Original: Digit_3; command 01; app 00FF807F
+name: Digit_3
 type: parsed
 protocol: NEC
 address: 00 00 00 00
-command: 4C 00 00 00
+command: 01 00 00 00
 #
+# Original: Unk02; command 06; app 00FF609F
+name: Digit_4
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 06 00 00 00
+#
+# Original: Digit_5; command 09; app 00FF906F
+name: Digit_5
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 09 00 00 00
+#
+# Original: Digit_6; command 1D; app 00FFB847
+name: Digit_6
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 1D 00 00 00
+#
+# Original: Digit_7; command 1F; app 00FFF807
+name: Digit_7
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 1F 00 00 00
+#
+# Original: Digit_8; command 0D; app 00FFB04F
+name: Digit_8
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 0D 00 00 00
+#
+# Original: Digit_9; command 19; app 00FF9867
+name: Digit_9
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 19 00 00 00
+#
+# Playback
+#
+# Original: Unk29; command 34; app 00FF2CD3
+name: Fast_Forward
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 34 00 00 00
+#
+# Original: Unk99; command 7E; app 00FF7E81
+name: Frame_Step
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 7E 00 00 00
+#
+# Original: Unk98; command 7D; app 00FFBE41
+name: Pause
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 7D 00 00 00
+#
+# Original: Play_Pause; command 1C; app 00FF38C7
+name: Play_Pause
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 1C 00 00 00
+#
+# Original: Rewind; command 02; app 00FF40BF
+# Rewind confirmed; Left in Setup remains unverified.
+name: Rewind
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 02 00 00 00
+#
+# Original: Slow; command 15; app 00FFA857
+name: Slow
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 15 00 00 00
+#
+# Original: Stop; command 14; app 00FF28D7
+name: Stop
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 14 00 00 00
+#
+# Original: Unk100; command 7F; app 00FFFE01
+# Alternative code for same observed function
+# name: alt1 Stop
+# type: parsed
+# protocol: NEC
+# address: 00 00 00 00
+# command: 7F 00 00 00
+#
+# Original: Unk17; command 28; app 00FF14EB
+# Alternative code for same observed function
+# name: alt1 Up_Previous
+# type: parsed
+# protocol: NEC
+# address: 00 00 00 00
+# command: 28 00 00 00
+#
+# Menus
+#
+# Original: Disc_Menu; command 1A; app 00FF58A7
+name: Root_Menu
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 1A 00 00 00
+#
+# Original: Unk21; command 2C; app 00FF34CB
+# Alternative code for same observed function
+# name: alt1 Root_Menu
+# type: parsed
+# protocol: NEC
+# address: 00 00 00 00
+# command: 2C 00 00 00
+#
+# Original: Unk51; command 4C; app 00FF32CD
+# Alternative code for same observed function
+# name: alt2 Root_Menu
+# type: parsed
+# protocol: NEC
+# address: 00 00 00 00
+# command: 4C 00 00 00
+#
+# Original: Unk102; command 81; app 00FF817E
+# Alternative code for same observed function
+# name: alt3 Root_Menu
+# type: parsed
+# protocol: NEC
+# address: 00 00 00 00
+# command: 81 00 00 00
+#
+# Original: Title_Menu; command 17; app 00FFE817
+name: Title_Menu
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 17 00 00 00
+#
+# Original: Unk103; command 82; app 00FF41BE
+# Alternative code for same observed function
+# name: alt1 Title_Menu
+# type: parsed
+# protocol: NEC
+# address: 00 00 00 00
+# command: 82 00 00 00
+#
+# Volume and sound
+#
+# Original: Audio_Track; command 12; app 00FF48B7
+name: Audio_Track
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 12 00 00 00
+#
+# Original: Mute; command 0E; app 00FF708F
+name: Mute
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 0E 00 00 00
+#
+# Original: Unk83; command 6E; app 00FF7689
+# Alternative code for same observed function
+# name: alt1 Mute
+# type: parsed
+# protocol: NEC
+# address: 00 00 00 00
+# command: 6E 00 00 00
+#
+# Original: Unk114; command 8D; app 00FFB14E
+# Alternative code for same observed function
+# name: alt2 Mute
+# type: parsed
+# protocol: NEC
+# address: 00 00 00 00
+# command: 8D 00 00 00
+#
+# Original: Unk07; command 16; app 00FF6897
+name: Subtitles
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 16 00 00 00
+#
+# Original: Volume_Down; command 0F; app 00FFF00F
+name: Volume_Down
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 0F 00 00 00
+#
+# Original: Unk85; command 70; app 00FF0EF1
+# Alternative code for same observed function
+# name: alt1 Volume_Down
+# type: parsed
+# protocol: NEC
+# address: 00 00 00 00
+# command: 70 00 00 00
+#
+# Original: Unk05; command 0C; app 00FF30CF
+name: Volume_Up
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 0C 00 00 00
+#
+# Original: Unk84; command 6F; app 00FFF609
+# Alternative code for same observed function
+# name: alt1 Volume_Up
+# type: parsed
+# protocol: NEC
+# address: 00 00 00 00
+# command: 6F 00 00 00
+#
+# Picture and information
+#
+# Original: Angle; command 00; app 00FF00FF
+name: Angle
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 00 00 00 00
+#
+# Original: Display; command 0A; app 00FF50AF
+name: Display
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 0A 00 00 00
+#
+# Original: Unk89; command 74; app 00FF2ED1
+# Displays current language.
+name: Language_Display
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 74 00 00 00
+#
+# Original: Zoom; command 11; app 00FF8877
+name: Zoom
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 11 00 00 00
+#
+# Repeat
+#
+# Original: Repeat; command 4D; app 00FFB24D
 name: Repeat
 type: parsed
 protocol: NEC
 address: 00 00 00 00
 command: 4D 00 00 00
 #
-name: Unk52
+# Original: Unk22; command 2D; app 00FFB44B
+# Alternative code for same observed function
+# Cycles chapter, title, all, off.
+# name: alt1 Repeat
+# type: parsed
+# protocol: NEC
+# address: 00 00 00 00
+# command: 2D 00 00 00
+#
+# Original: Unk01; command 04; app 00FF20DF
+name: Repeat_A_B
 type: parsed
 protocol: NEC
 address: 00 00 00 00
-command: 4E 00 00 00
+command: 04 00 00 00
 #
-name: Unk53
+# Advanced audio - commented out
+#
+# Original: Unk76; command 67; app 00FFE619
+# Advanced, unclear or unverified command; kept disabled
+# User describes Audio Assist; exact function not established.
+# name: Audio_Assist
+# type: parsed
+# protocol: NEC
+# address: 00 00 00 00
+# command: 67 00 00 00
+#
+# Original: Unk81; command 6C; app 00FF36C9
+# Advanced, unclear or unverified command; kept disabled
+# Cycles Stereo, LT/RT and other options not fully visible.
+# name: Audio_Output_Mode
+# type: parsed
+# protocol: NEC
+# address: 00 00 00 00
+# command: 6C 00 00 00
+#
+# Original: Unk79; command 6A; app 00FF56A9
+# Advanced, unclear or unverified command; kept disabled
+# Displayed mixer-like audio visuals; no adjustment established.
+# name: Audio_Visuals
+# type: parsed
+# protocol: NEC
+# address: 00 00 00 00
+# command: 6A 00 00 00
+#
+# Original: Unk71; command 62; app 00FF46B9
+# Advanced, unclear or unverified command; kept disabled
+# name: Key_Minus
+# type: parsed
+# protocol: NEC
+# address: 00 00 00 00
+# command: 62 00 00 00
+#
+# Original: Unk70; command 61; app 00FF8679
+# Advanced, unclear or unverified command; kept disabled
+# name: Key_Plus
+# type: parsed
+# protocol: NEC
+# address: 00 00 00 00
+# command: 61 00 00 00
+#
+# Original: Unk72; command 63; app 00FFC639
+# Advanced, unclear or unverified command; kept disabled
+# name: Key_Reset
+# type: parsed
+# protocol: NEC
+# address: 00 00 00 00
+# command: 63 00 00 00
+#
+# Unclear or disruptive - commented out
+#
+# Original: Unk73; command 64; app 00FF26D9
+# Advanced, unclear or unverified command; kept disabled
+# Altered audio; combined language tracks and noise/interference reported across Unk73-75.
+# name: Audio_Alter_73
+# type: parsed
+# protocol: NEC
+# address: 00 00 00 00
+# command: 64 00 00 00
+#
+# Original: Unk74; command 65; app 00FFA659
+# Advanced, unclear or unverified command; kept disabled
+# Altered audio; individual effect not identified; noise/interference reported.
+# name: Audio_Alter_74
+# type: parsed
+# protocol: NEC
+# address: 00 00 00 00
+# command: 65 00 00 00
+#
+# Original: Unk75; command 66; app 00FF6699
+# Advanced, unclear or unverified command; kept disabled
+# Altered audio; individual effect not identified; noise/interference reported.
+# name: Audio_Alter_75
+# type: parsed
+# protocol: NEC
+# address: 00 00 00 00
+# command: 66 00 00 00
+#
+# Original: Unk77; command 68; app 00FF16E9
+# Advanced, unclear or unverified command; kept disabled
+# Seemed to reset audio, but also restored the messed-up audio; NOT a reliable recovery button.
+# name: Audio_Reset_Uncertain
+# type: parsed
+# protocol: NEC
+# address: 00 00 00 00
+# command: 68 00 00 00
+#
+# Original: Unk88; command 73; app 00FFCE31
+# Advanced, unclear or unverified command; kept disabled
+# Blue-bordered window with green button but no text; unknown function.
+# name: Blank_Window
+# type: parsed
+# protocol: NEC
+# address: 00 00 00 00
+# command: 73 00 00 00
+#
+# Original: Unk97; command 7C; app 00FF3EC1
+# Advanced, unclear or unverified command; kept disabled
+# Eject/open response; not useful for this portable's mechanical lid.
+# name: Eject
+# type: parsed
+# protocol: NEC
+# address: 00 00 00 00
+# command: 7C 00 00 00
+#
+# Original: Unk104; command 83; app 00FFC13E
+# Alternative code for same observed function
+# Open/eject response.
+# name: alt1 Eject
+# type: parsed
+# protocol: NEC
+# address: 00 00 00 00
+# command: 83 00 00 00
+#
+# Original: Unk109; command 88; app 00FF11EE
+# Advanced, unclear or unverified command; kept disabled
+# Password prompt; 9653, 0000 and 1234 rejected. User needed power cycle to dismiss; not the region overlay.
+# name: Password_Prompt
+# type: parsed
+# protocol: NEC
+# address: 00 00 00 00
+# command: 88 00 00 00
+#
+# Invalid-icon responses - TBC
+#
+# Original: TEST_Unknown_Enter; command 07; app 00FFE01F
+# Invalid icon observed; actual function to be confirmed.
+name: tbc01
 type: parsed
 protocol: NEC
 address: 00 00 00 00
-command: 4F 00 00 00
+command: 07 00 00 00
 #
-name: Unk54
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: 50 00 00 00
-#
-name: Unk55
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: 51 00 00 00
-#
-name: Unk56
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: 52 00 00 00
-#
-name: Unk57
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: 53 00 00 00
-#
-name: TEST_Right
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: 54 00 00 00
-#
-name: Unk58
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: 55 00 00 00
-#
-name: Unk59
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: 56 00 00 00
-#
-name: Unk60
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: 57 00 00 00
-#
-name: Unk61
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: 58 00 00 00
-#
-name: Unk62
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: 59 00 00 00
-#
-name: Unk63
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: 5A 00 00 00
-#
-name: Unk64
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: 5B 00 00 00
-#
-name: Unk65
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: 5C 00 00 00
-#
-name: Unk66
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: 5D 00 00 00
-#
-name: Unk67
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: 5E 00 00 00
-#
-name: Unk68
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: 5F 00 00 00
-#
-name: Unk69
+# Original: Unk69; command 60; app 00FF06F9
+# Invalid icon observed; actual function to be confirmed.
+name: tbc02
 type: parsed
 protocol: NEC
 address: 00 00 00 00
 command: 60 00 00 00
 #
-name: Unk70
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: 61 00 00 00
-#
-name: Unk71
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: 62 00 00 00
-#
-name: Unk72
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: 63 00 00 00
-#
-name: Unk73
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: 64 00 00 00
-#
-name: Unk74
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: 65 00 00 00
-#
-name: Unk75
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: 66 00 00 00
-#
-name: Unk76
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: 67 00 00 00
-#
-name: Unk77
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: 68 00 00 00
-#
-name: Unk78
+# Original: Unk78; command 69; app 00FF9669
+# Invalid icon observed; actual function to be confirmed.
+name: tbc03
 type: parsed
 protocol: NEC
 address: 00 00 00 00
 command: 69 00 00 00
 #
-name: Unk79
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: 6A 00 00 00
-#
-name: Unk80
+# Original: Unk80; command 6B; app 00FFD629
+# Invalid icon observed; actual function to be confirmed.
+name: tbc04
 type: parsed
 protocol: NEC
 address: 00 00 00 00
 command: 6B 00 00 00
 #
-name: Unk81
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: 6C 00 00 00
-#
-name: Unk82
+# Original: Unk82; command 6D; app 00FFB649
+# Invalid icon observed; actual function to be confirmed.
+name: tbc05
 type: parsed
 protocol: NEC
 address: 00 00 00 00
 command: 6D 00 00 00
 #
-name: Unk83
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: 6E 00 00 00
-#
-name: Unk84
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: 6F 00 00 00
-#
-name: Unk85
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: 70 00 00 00
-#
-name: Unk86
+# Original: Unk86; command 71; app 00FF8E71
+# Invalid icon observed; actual function to be confirmed.
+name: tbc06
 type: parsed
 protocol: NEC
 address: 00 00 00 00
 command: 71 00 00 00
 #
-name: Unk87
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: 72 00 00 00
-#
-name: Unk88
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: 73 00 00 00
-#
-name: Unk89
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: 74 00 00 00
-#
-name: Unk90
+# Original: Unk90; command 75; app 00FFAE51
+# Invalid icon observed; actual function to be confirmed.
+name: tbc07
 type: parsed
 protocol: NEC
 address: 00 00 00 00
 command: 75 00 00 00
 #
-name: Unk91
+# Original: Unk91; command 76; app 00FF6E91
+# Invalid icon observed; actual function to be confirmed.
+name: tbc08
 type: parsed
 protocol: NEC
 address: 00 00 00 00
 command: 76 00 00 00
 #
-name: Unk92
+# Original: Unk92; command 77; app 00FFEE11
+# Invalid icon observed; actual function to be confirmed.
+name: tbc09
 type: parsed
 protocol: NEC
 address: 00 00 00 00
 command: 77 00 00 00
 #
-name: Unk93
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: 78 00 00 00
-#
-name: Unk94
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: 79 00 00 00
-#
-name: Unk95
+# Original: Unk95; command 7A; app 00FF5EA1
+# Invalid icon observed; actual function to be confirmed.
+name: tbc10
 type: parsed
 protocol: NEC
 address: 00 00 00 00
 command: 7A 00 00 00
 #
-name: Unk96
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: 7B 00 00 00
-#
-name: Unk97
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: 7C 00 00 00
-#
-name: Unk98
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: 7D 00 00 00
-#
-name: Unk99
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: 7E 00 00 00
-#
-name: Unk100
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: 7F 00 00 00
-#
-name: Unk101
+# Original: Unk101; command 80; app 00FF01FE
+# Invalid icon observed; actual function to be confirmed.
+name: tbc11
 type: parsed
 protocol: NEC
 address: 00 00 00 00
 command: 80 00 00 00
 #
-name: Unk102
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: 81 00 00 00
-#
-name: Unk103
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: 82 00 00 00
-#
-name: Unk104
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: 83 00 00 00
-#
-name: Unk105
+# Original: Unk105; command 84; app 00FF21DE
+# Invalid icon observed; actual function to be confirmed.
+name: tbc12
 type: parsed
 protocol: NEC
 address: 00 00 00 00
 command: 84 00 00 00
 #
-name: Unk106
+# Original: Unk106; command 85; app 00FFA15E
+# Invalid icon observed; actual function to be confirmed.
+name: tbc13
 type: parsed
 protocol: NEC
 address: 00 00 00 00
 command: 85 00 00 00
 #
-name: Unk107
+# Original: Unk107; command 86; app 00FF619E
+# Invalid icon observed; actual function to be confirmed.
+name: tbc14
 type: parsed
 protocol: NEC
 address: 00 00 00 00
 command: 86 00 00 00
 #
-name: Unk108
+# Original: Unk108; command 87; app 00FFE11E
+# Invalid icon observed; actual function to be confirmed.
+name: tbc15
 type: parsed
 protocol: NEC
 address: 00 00 00 00
 command: 87 00 00 00
 #
-name: Unk109
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: 88 00 00 00
-#
-name: Unk110
+# Original: Unk110; command 89; app 00FF916E
+# Invalid icon observed; actual function to be confirmed.
+name: tbc16
 type: parsed
 protocol: NEC
 address: 00 00 00 00
 command: 89 00 00 00
 #
-name: Unk111
+# Original: Unk111; command 8A; app 00FF51AE
+# Invalid icon observed; actual function to be confirmed.
+name: tbc17
 type: parsed
 protocol: NEC
 address: 00 00 00 00
 command: 8A 00 00 00
 #
-name: Unk112
+# Original: Unk112; command 8B; app 00FFD12E
+# Invalid icon observed; actual function to be confirmed.
+name: tbc18
 type: parsed
 protocol: NEC
 address: 00 00 00 00
 command: 8B 00 00 00
 #
-name: Unk113
+# Original: Unk113; command 8C; app 00FF31CE
+# Invalid icon observed; actual function to be confirmed.
+name: tbc19
 type: parsed
 protocol: NEC
 address: 00 00 00 00
 command: 8C 00 00 00
 #
-name: Unk114
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: 8D 00 00 00
-#
-name: Unk115
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: 8E 00 00 00
-#
-name: Unk116
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: 8F 00 00 00
-#
-name: Unk117
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: 90 00 00 00
-#
-name: Unk118
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: 91 00 00 00
-#
-name: Unk119
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: 92 00 00 00
-#
-name: Unk120
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: 93 00 00 00
-#
-name: Unk121
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: 94 00 00 00
-#
-name: Unk122
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: 95 00 00 00
-#
-name: Unk123
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: 96 00 00 00
-#
-name: Unk124
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: 97 00 00 00
-#
-name: Unk125
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: 98 00 00 00
-#
-name: Unk126
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: 99 00 00 00
-#
-name: Unk127
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: 9A 00 00 00
-#
-name: Unk128
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: 9B 00 00 00
-#
-name: Unk129
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: 9C 00 00 00
-#
-name: Unk130
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: 9D 00 00 00
-#
-name: Unk131
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: 9E 00 00 00
-#
-name: Unk132
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: 9F 00 00 00
-#
-name: Unk133
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: A0 00 00 00
-#
-name: Unk134
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: A1 00 00 00
-#
-name: Unk135
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: A2 00 00 00
-#
-name: Unk136
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: A3 00 00 00
-#
-name: Unk137
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: A4 00 00 00
-#
-name: Unk138
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: A5 00 00 00
-#
-name: Unk139
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: A6 00 00 00
-#
-name: Unk140
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: A7 00 00 00
-#
-name: Unk141
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: A8 00 00 00
-#
-name: Unk142
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: A9 00 00 00
-#
-name: Unk143
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: AA 00 00 00
-#
-name: Unk144
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: AB 00 00 00
-#
-name: Unk145
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: AC 00 00 00
-#
-name: Unk146
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: AD 00 00 00
-#
-name: Unk147
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: AE 00 00 00
-#
-name: Unk148
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: AF 00 00 00
-#
-name: Unk149
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: B0 00 00 00
-#
-name: Unk150
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: B1 00 00 00
-#
-name: Unk151
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: B2 00 00 00
-#
-name: Unk152
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: B3 00 00 00
-#
-name: Unk153
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: B4 00 00 00
-#
-name: Unk154
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: B5 00 00 00
-#
-name: Unk155
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: B6 00 00 00
-#
-name: Unk156
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: B7 00 00 00
-#
-name: Unk157
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: B8 00 00 00
-#
-name: Unk158
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: B9 00 00 00
-#
-name: Unk159
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: BA 00 00 00
-#
-name: Unk160
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: BB 00 00 00
-#
-name: Unk161
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: BC 00 00 00
-#
-name: Unk162
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: BD 00 00 00
-#
-name: Unk163
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: BE 00 00 00
-#
-name: Unk164
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: BF 00 00 00
-#
-name: Unk165
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: C0 00 00 00
-#
-name: Unk166
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: C1 00 00 00
-#
-name: Unk167
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: C2 00 00 00
-#
-name: Unk168
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: C3 00 00 00
-#
-name: Unk169
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: C4 00 00 00
-#
-name: Unk170
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: C5 00 00 00
-#
-name: Unk171
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: C6 00 00 00
-#
-name: Unk172
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: C7 00 00 00
-#
-name: Unk173
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: C8 00 00 00
-#
-name: Unk174
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: C9 00 00 00
-#
-name: Unk175
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: CA 00 00 00
-#
-name: Unk176
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: CB 00 00 00
-#
-name: Unk177
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: CC 00 00 00
-#
-name: Unk178
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: CD 00 00 00
-#
-name: Unk179
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: CE 00 00 00
-#
-name: Unk180
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: CF 00 00 00
-#
-name: Unk181
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: D0 00 00 00
-#
-name: Unk182
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: D1 00 00 00
-#
-name: Unk183
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: D2 00 00 00
-#
-name: Unk184
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: D3 00 00 00
-#
-name: Unk185
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: D4 00 00 00
-#
-name: Unk186
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: D5 00 00 00
-#
-name: Unk187
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: D6 00 00 00
-#
-name: Unk188
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: D7 00 00 00
-#
-name: Unk189
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: D8 00 00 00
-#
-name: Unk190
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: D9 00 00 00
-#
-name: Unk191
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: DA 00 00 00
-#
-name: Unk192
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: DB 00 00 00
-#
-name: Unk193
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: DC 00 00 00
-#
-name: Unk194
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: DD 00 00 00
-#
-name: Unk195
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: DE 00 00 00
-#
-name: Unk196
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: DF 00 00 00
-#
-name: Unk197
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: E0 00 00 00
-#
-name: Unk198
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: E1 00 00 00
-#
-name: Unk199
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: E2 00 00 00
-#
-name: Unk200
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: E3 00 00 00
-#
-name: Unk201
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: E4 00 00 00
-#
-name: Unk202
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: E5 00 00 00
-#
-name: Unk203
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: E6 00 00 00
-#
-name: Unk204
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: E7 00 00 00
-#
-name: Unk205
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: E8 00 00 00
-#
-name: Unk206
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: E9 00 00 00
-#
-name: Unk207
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: EA 00 00 00
-#
-name: Unk208
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: EB 00 00 00
-#
-name: Unk209
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: EC 00 00 00
-#
-name: Unk210
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: ED 00 00 00
-#
-name: Unk211
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: EE 00 00 00
-#
-name: Unk212
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: EF 00 00 00
-#
-name: Unk213
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: F0 00 00 00
-#
-name: Unk214
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: F1 00 00 00
-#
-name: Unk215
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: F2 00 00 00
-#
-name: Unk216
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: F3 00 00 00
-#
-name: Unk217
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: F4 00 00 00
-#
-name: Unk218
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: F5 00 00 00
-#
-name: Unk219
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: F6 00 00 00
-#
-name: Unk220
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: F7 00 00 00
-#
-name: Unk221
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: F8 00 00 00
-#
-name: Unk222
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: F9 00 00 00
-#
-name: Unk223
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: FA 00 00 00
-#
-name: Unk224
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: FB 00 00 00
-#
-name: Unk225
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: FC 00 00 00
-#
-name: Unk226
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: FD 00 00 00
-#
-name: Unk227
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: FE 00 00 00
-#
-name: Unk228
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: FF 00 00 00
+# Unverified candidate - commented out
+#
+# Original: TEST_Right; command 54; app 00FF2AD5
+# Advanced, unclear or unverified command; kept disabled
+# name: TEST_Right
+# type: parsed
+# protocol: NEC
+# address: 00 00 00 00
+# command: 54 00 00 00
 #
